@@ -26,7 +26,9 @@ This will add the image specified as the overlay(mu in this case). The opacity i
 
 Now we create the routing for the file Open the routes folder and create a file, name it mu.js 6.paste the following code in the mu.js file
 
-'''exports.index = function(req, res){ res.render('mu', { title: 'Manchester United' }); };'''
+
+exports.index = function(req, res){ res.render('mu', { title: 'Manchester United' }); };
+
 
 7.To import the routing into the app, go to app.js and add this just under ,gh = require('./routes/gh'). , mu = require('./routes/mu')
 
