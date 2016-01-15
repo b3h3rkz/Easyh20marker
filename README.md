@@ -49,18 +49,18 @@ block content
      Open the routes folder and create a file, name it mu.js
      
     6.paste the following code in  the mu.js file 
-    exports.index = function(req, res){
+   
+ exports.index = function(req, res){
   res.render('mu', { title: 'Manchester United' });
 };
 
-6.To import the routing into the app,  go to app.js and add this just under  , gh = require('./routes/gh').
-
- , mu = require('./routes/mu')
+6.To import the routing into the app,  go to app.js and add this just under  , 
+gh = require('./routes/gh').
+, mu = require('./routes/mu')
 
 This means that we have now added the route to our mu.js as a dependency
 
 7. Then add this just under the first get method that retrieves data from the api.
-
 
 app.get('/mu', function(req, res, next){
   cloudinary.api.resources(function(items){
