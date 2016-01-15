@@ -35,9 +35,9 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 
 cloudinary.config({
-    cloud_name : '',
-    api_key: '',
-    api_secret: ''
+    cloud_name : 'py',
+    api_key: '974375294473519',
+    api_secret: 'J0qaRgA7qJK19uwBXu-G7asq1wM'
 });
     
 });
@@ -71,7 +71,7 @@ app.post('/upload', function(req, res){
 
     , cloudStream = cloudinary.uploader.upload_stream(function()                                                       
                                                       
-    { res.redirect('/index'); });
+    { res.redirect('/'); });
     
     
   imageStream.on('data', cloudStream.write).on('end', cloudStream.end);
