@@ -5,7 +5,7 @@ This is a small web app that lets you upload an image and allows to add overlays
 You need to have nodejs and npm  installed on your local development machine to be able to run the application.
 
 
-1. You can install node from here.
+1. You can install node from https://nodejs.org/en/
 2. Create a folder for the project.
 3. Clone the repo
 4. Run "node app " or "npm start" in the project directory to start the program.
