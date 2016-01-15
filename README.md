@@ -25,11 +25,9 @@ cloudinary.config({
 
 3. Go to the views folder and create a file..... with jade extension. we will call this one mu.jade
 
-4. extends index
-
+4. 
+extends index
 block content
-
-
 
   - if (images && images.length)
   
