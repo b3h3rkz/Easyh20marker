@@ -35,9 +35,9 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 
 cloudinary.config({
-    cloud_name : 'py',
-    api_key: '974375294473519',
-    api_secret: 'J0qaRgA7qJK19uwBXu-G7asq1wM'
+    cloud_name : '',
+    api_key: '',
+    api_secret: ''
 });
     
 });
