@@ -1,0 +1,17 @@
+extends index
+
+block content
+
+  
+
+  - if (images && images.length)
+  
+  - images.forEach(function(image){
+  .row 
+    .col.s12.m2
+      .card
+        .card-image
+        
+        img(src=cloudinary.url(image.public_id + '.' + image.format, {overlay:"ng-flag",   opacity: 75, width: 160, height: 160,  crop:'fill', effect: 'brightness:80',  version: image.version }) )
+    - })
+

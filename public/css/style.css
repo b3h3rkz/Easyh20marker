@@ -1,0 +1,29 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
+    
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+.nav{
+    padding: 0px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin: 0.5rem 0px 1rem;
+    background-color: #FFF;
+    transition: box-shadow 0.25s ease 0s;
+    border-radius: 2px;
+    margin-left: 80px;
+    width: 160px;
+    height: 160px;
+}
+
+

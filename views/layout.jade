@@ -1,0 +1,54 @@
+doctype 5
+html
+   head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    |   
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0')
+    |   
+    title 
+    // CSS
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet') 
+    link(href='css/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+    link(rel='stylesheet', href='/css/materialize.min.css')
+
+body
+ 
+    nav.fixed.light-blue.lighten-1(role='navigation')
+      .nav-wrapper
+        a#logo-container.brand-logo(href='/index') Easyh2oMarker
+        |       
+        ul.right.hide-on-med-and-down
+          li
+            a(href='/') Home
+          li
+            a(href='/ng') Nigeria
+          li
+            a(href='/gh') Ghana
+        |       
+        ul#nav-mobile.side-nav
+          li
+            a(href='/') Easyh2oMarker
+          li
+            a(href='/ng') Nigeria
+            
+          li
+            a(href='/gh') Ghana
+        |       d
+        a.button-collapse(href='#', data-activates='nav-mobile')
+          i.material-icons menu
+    |   
+.container
+block content     
+          
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+    script(src='/jquery.ui.widget.js')
+    script(src='/jquery.iframe-transport.js')
+    script(src='/jquery.fileupload.js')
+    script(src='/jquery.cloudinary.js')
+    script(src='/materialize.min.js')
+    script(src='/init.js')
+    block scripts
+
+     
+ 
+ 

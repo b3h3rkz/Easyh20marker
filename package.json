@@ -1,0 +1,19 @@
+{
+  "name": "EasyH20Marker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+    
+    "author":{
+        "name": "Bernard Barje Parah ",
+        "email": "barjebernard@gmail.com"
+    },
+    
+  "dependencies": {
+    "express": "3.0.3",
+    "jade": "*",
+    "cloudinary": "*"
+  }
+}
